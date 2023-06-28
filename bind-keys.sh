@@ -15,6 +15,10 @@ bindkey "\e[1;5D" backward-word
 bindkey "\eOc" forward-word
 bindkey "\eOd" backward-word
 
-# delete key
+### delete key
 bindkey "^[[3~" delete-char
 bindkey "^[3;5~" delete-char
+
+### home and insert keys
+bindkey "^[[H" beginning-of-line
+bindkey "^[[F" end-of-line
